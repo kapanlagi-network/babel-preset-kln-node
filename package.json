@@ -1,0 +1,68 @@
+{
+  "name": "babel-preset-kln-node",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Opinionated Babel preset",
+  "homepage": "https://github.com/kapanlagi-network/babel-preset-kln-node",
+  "main": "lib/index.js",
+  "keywords": [
+    "kln",
+    "babel-preset",
+    "node"
+  ],
+  "author": "Simon Degraeve <simon.degraeve@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kapanlagi-network/babel-preset-kln-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kapanlagi-network/babel-preset-kln-node/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prebuild": "rimraf lib",
+    "build": "babel --copy-files --out-dir lib src"
+  },
+  "dependencies": {
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-async-to-generator": "^6.5.0",
+    "babel-plugin-transform-class-properties": "^6.5.2",
+    "babel-plugin-transform-decorators": "^6.5.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.5.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.5.2",
+    "babel-plugin-transform-es2015-parameters": "^6.5.0",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.5.0",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.5.0",
+    "babel-plugin-transform-export-extensions": "^6.5.0",
+    "babel-plugin-transform-flow-strip-types": "^6.5.0",
+    "babel-plugin-transform-object-rest-spread": "^6.5.0",
+    "babel-plugin-transform-strict-mode": "^6.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "kln-eslint-config": "^0.1.0",
+    "rimraf": "^2.5.2"
+  },
+  "eslintConfig": {
+    "extends": "kln"
+  },
+  "babel": {
+    "plugins": [
+      "add-module-exports",
+      "transform-es2015-destructuring",
+      "transform-es2015-modules-commonjs",
+      "transform-es2015-parameters",
+      "transform-es2015-sticky-regex",
+      "transform-es2015-unicode-regex",
+      "transform-strict-mode",
+      "transform-flow-strip-types",
+      "transform-object-rest-spread",
+      "transform-class-properties",
+      "transform-decorators",
+      "transform-export-extensions",
+      "transform-async-to-generator"
+    ]
+  }
+}
