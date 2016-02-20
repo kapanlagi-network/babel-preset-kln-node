@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-kln-node",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "description": "Opinionated Babel preset",
   "homepage": "https://github.com/kapanlagi-network/babel-preset-kln-node",
