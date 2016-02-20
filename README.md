@@ -13,13 +13,13 @@ Opinionated Babel preset
 Using [npm](https://www.npmjs.com):
 
 ```
-npm install babel-kln-preset-node
+npm install babel-preset-kln-node
 ```
 
 
 ## Documentation
 
-Add `babel-kln-preset-node` to your [Babel](http://babeljs.io/) configuration :
+Add `babel-preset-kln-node` to your [Babel](http://babeljs.io/) configuration :
 
 ```js
 {
@@ -31,17 +31,17 @@ Add `babel-kln-preset-node` to your [Babel](http://babeljs.io/) configuration :
 
 
 
-[travis-img]: https://img.shields.io/travis/kapanlagi-network/babel-kln-preset-node.svg?style=flat-square
-[travis-link]: https://travis-ci.org/kapanlagi-network/babel-kln-preset-node
+[travis-img]: https://img.shields.io/travis/kapanlagi-network/babel-preset-kln-node.svg?style=flat-square
+[travis-link]: https://travis-ci.org/kapanlagi-network/babel-preset-kln-node
 
-[npm-img]: https://img.shields.io/npm/v/babel-kln-preset-node.svg?style=flat-square
-[npm-link]: https://www.npmjs.com/package/babel-kln-preset-node
+[npm-img]: https://img.shields.io/npm/v/babel-preset-kln-node.svg?style=flat-square
+[npm-link]: https://www.npmjs.com/package/babel-preset-kln-node
 
-[codecov-img]: https://img.shields.io/codecov/c/github/kapanlagi-network/babel-kln-preset-node/master.svg?style=flat-square
-[codecov-link]: https://codecov.io/github/kapanlagi-network/babel-kln-preset-node?branch=master
+[codecov-img]: https://img.shields.io/codecov/c/github/kapanlagi-network/babel-preset-kln-node/master.svg?style=flat-square
+[codecov-link]: https://codecov.io/github/kapanlagi-network/babel-preset-kln-node?branch=master
 
-[david-img]: https://img.shields.io/david/kapanlagi-network/babel-kln-preset-node.svg?style=flat-square
-[david-link]: https://david-dm.org/kapanlagi-network/babel-kln-preset-node
+[david-img]: https://img.shields.io/david/kapanlagi-network/babel-preset-kln-node.svg?style=flat-square
+[david-link]: https://david-dm.org/kapanlagi-network/babel-preset-kln-node
 
-[licence-img]: https://img.shields.io/npm/l/babel-kln-preset-node.svg?style=flat-square
+[licence-img]: https://img.shields.io/npm/l/babel-preset-kln-node.svg?style=flat-square
 [licence-link]: LICENCE.md
