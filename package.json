@@ -35,7 +35,6 @@
     "babel-plugin-transform-es2015-parameters": "^6.5.0",
     "babel-plugin-transform-es2015-sticky-regex": "^6.5.0",
     "babel-plugin-transform-es2015-unicode-regex": "^6.5.0",
-    "babel-plugin-transform-export-extensions": "^6.5.0",
     "babel-plugin-transform-flow-strip-types": "^6.5.0",
     "babel-plugin-transform-object-rest-spread": "^6.5.0",
     "babel-plugin-transform-strict-mode": "^6.5.2"
@@ -61,7 +60,6 @@
       "transform-object-rest-spread",
       "transform-class-properties",
       "transform-decorators",
-      "transform-export-extensions",
       "transform-async-to-generator"
     ]
   }

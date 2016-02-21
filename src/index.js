@@ -14,7 +14,6 @@ export default {
     'transform-object-rest-spread',
     'transform-class-properties',
     'transform-decorators',
-    'transform-export-extensions',
     'transform-async-to-generator'
   ]
 }
