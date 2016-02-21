@@ -9,7 +9,7 @@
 
 
 <a name="0.1.0"></a>
-# [0.1.0](https://github.com/kapanlagi-network/babel-preset-kln-node/compare/45fa819...v0.1.0) (2016-02-20)
+# [0.1.0](https://github.com/kapanlagi-network/babel-preset-kln-node/compare/45fa819...v0.1.0) (2016-02-21)
 
 
 ### Features
